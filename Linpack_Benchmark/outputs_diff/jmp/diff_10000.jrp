@@ -1,0 +1,12 @@
+﻿Open(
+	"C:\Users\Antimo\Documents\Impianti\Linpack Benchmark\outputs_diff\jmp\diff_10000.jmp"
+);
+Distribution(
+	Continuous Distribution(
+		Column( :Differenza ),
+		Horizontal Layout( 1 ),
+		Vertical( 0 ),
+		Confidence Interval( 0.95 ),
+		Test Mean( 0 )
+	)
+);

@@ -1,0 +1,35 @@
+Sample data file lininput_xeon64.
+
+Current date/time: Mon Nov 23 14:34:09 2020
+
+CPU frequency:    3.691 GHz
+Number of CPUs: 1
+Number of cores: 4
+Number of threads: 4
+
+Parameters are set to:
+
+Number of tests: 1
+
+Number of equations to solve (problem size) : 5000 
+Leading dimension of array                  : 5008 
+Number of trials to run                     : 1    
+Data alignment value (in Kbytes)            : 4    
+Maximum memory requested that can be used=200104096, at the size=5000
+
+=================== Timing linear equation system solver ===================
+
+Size   LDA    Align. Time(s)    GFlops   Residual     Residual(norm) Check
+5000   5008   4      0.985      84.6740  2.456835e-11 3.270604e-02   pass
+
+Performance Summary (GFlops)
+
+Size   LDA    Align.  Average  Maximal
+5000   5000   4       84.6740  84.6740 
+
+Residual checks PASSED
+
+End of tests
+
+23/11/2020 
+14:34

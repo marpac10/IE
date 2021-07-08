@@ -1,0 +1,94 @@
+2021-01-01 11:30:56,138 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2021-01-01 11:30:56,156 INFO o.a.j.JMeter: Loading user properties from: C:\Users\Antimo\Desktop\II Semestre\Impianti\apache-jmeter-5.3\bin\user.properties
+2021-01-01 11:30:56,157 INFO o.a.j.JMeter: Loading system properties from: C:\Users\Antimo\Desktop\II Semestre\Impianti\apache-jmeter-5.3\bin\system.properties
+2021-01-01 11:30:56,158 INFO o.a.j.JMeter: Copyright (c) 1998-2020 The Apache Software Foundation
+2021-01-01 11:30:56,159 INFO o.a.j.JMeter: Version 5.3
+2021-01-01 11:30:56,159 INFO o.a.j.JMeter: java.version=11.0.8
+2021-01-01 11:30:56,159 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2021-01-01 11:30:56,159 INFO o.a.j.JMeter: os.name=Windows 10
+2021-01-01 11:30:56,159 INFO o.a.j.JMeter: os.arch=amd64
+2021-01-01 11:30:56,159 INFO o.a.j.JMeter: os.version=10.0
+2021-01-01 11:30:56,159 INFO o.a.j.JMeter: file.encoding=Cp1252
+2021-01-01 11:30:56,159 INFO o.a.j.JMeter: java.awt.headless=true
+2021-01-01 11:30:56,159 INFO o.a.j.JMeter: Max memory     =1073741824
+2021-01-01 11:30:56,159 INFO o.a.j.JMeter: Available Processors =8
+2021-01-01 11:30:56,166 INFO o.a.j.JMeter: Default Locale=English (EN)
+2021-01-01 11:30:56,166 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2021-01-01 11:30:56,166 INFO o.a.j.JMeter: JMeterHome=C:\Users\Antimo\Desktop\II Semestre\Impianti\apache-jmeter-5.3
+2021-01-01 11:30:56,166 INFO o.a.j.JMeter: user.dir  =C:\Users\Antimo\Documents\Impianti\Workoad Characterization\capacity_test
+2021-01-01 11:30:56,167 INFO o.a.j.JMeter: PWD       =C:\Users\Antimo\Documents\Impianti\Workoad Characterization\capacity_test
+2021-01-01 11:31:00,672 INFO o.a.j.JMeter: IP: 192.168.56.1 Name: LAPTOP-6R0PP2ER FullName: LAPTOP-6R0PP2ER
+2021-01-01 11:31:00,679 INFO o.a.j.s.FileServer: Default base='C:\Users\Antimo\Documents\Impianti\Workoad Characterization\capacity_test'
+2021-01-01 11:31:00,680 INFO o.a.j.s.FileServer: Set new base='C:\Users\Antimo\Documents\Impianti\Workoad Characterization\capacity_test'
+2021-01-01 11:31:00,815 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2021-01-01 11:31:00,833 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2021-01-01 11:31:00,835 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2021-01-01 11:31:00,838 INFO o.a.j.s.SaveService: Loading file: capacity_test_big.jmx
+2021-01-01 11:31:00,888 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2021-01-01 11:31:00,888 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2021-01-01 11:31:00,889 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2021-01-01 11:31:00,889 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2021-01-01 11:31:00,889 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2021-01-01 11:31:00,889 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2021-01-01 11:31:00,898 INFO o.a.j.JMeter: Creating summariser <summary>
+2021-01-01 11:31:00,902 INFO o.a.j.e.DistributedRunner: Configuring remote engine: 127.0.0.1
+2021-01-01 11:31:01,210 ERROR o.a.j.e.DistributedRunner: Failed to create engine at 127.0.0.1
+java.rmi.ConnectIOException: Exception creating connection to: 127.0.0.1; nested exception is: 
+	java.io.FileNotFoundException: rmi_keystore.jks (Impossibile trovare il file specificato)
+	at sun.rmi.transport.tcp.TCPEndpoint.newSocket(TCPEndpoint.java:635) ~[?:?]
+	at sun.rmi.transport.tcp.TCPChannel.createConnection(TCPChannel.java:209) ~[?:?]
+	at sun.rmi.transport.tcp.TCPChannel.newConnection(TCPChannel.java:196) ~[?:?]
+	at sun.rmi.server.UnicastRef.newCall(UnicastRef.java:343) ~[?:?]
+	at sun.rmi.registry.RegistryImpl_Stub.lookup(RegistryImpl_Stub.java:116) ~[?:?]
+	at org.apache.jmeter.engine.ClientJMeterEngine.getEngine(ClientJMeterEngine.java:71) ~[ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.engine.ClientJMeterEngine.<init>(ClientJMeterEngine.java:84) ~[ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.engine.DistributedRunner.createEngine(DistributedRunner.java:243) ~[ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.engine.DistributedRunner.getClientEngine(DistributedRunner.java:220) [ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.engine.DistributedRunner.init(DistributedRunner.java:93) [ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.JMeter.runNonGui(JMeter.java:1093) [ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.JMeter.startNonGui(JMeter.java:994) [ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.JMeter.start(JMeter.java:566) [ApacheJMeter_core.jar:5.3]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.apache.jmeter.NewDriver.main(NewDriver.java:252) [ApacheJMeter.jar:5.3]
+Caused by: java.io.FileNotFoundException: rmi_keystore.jks (Impossibile trovare il file specificato)
+	at java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.io.FileInputStream.open(FileInputStream.java:219) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:157) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:112) ~[?:?]
+	at org.apache.jmeter.rmi.SSLRMIClientSocketFactory.loadStore(SSLRMIClientSocketFactory.java:124) ~[ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.rmi.SSLRMIClientSocketFactory.createSocket(SSLRMIClientSocketFactory.java:82) ~[ApacheJMeter_core.jar:5.3]
+	at sun.rmi.transport.tcp.TCPEndpoint.newSocket(TCPEndpoint.java:617) ~[?:?]
+	... 17 more
+2021-01-01 11:31:01,223 ERROR o.a.j.u.JMeterUtils: Exception creating connection to: 127.0.0.1; nested exception is: 
+	java.io.FileNotFoundException: rmi_keystore.jks (Impossibile trovare il file specificato)
+2021-01-01 11:31:01,223 INFO o.a.j.e.DistributedRunner: Failed to configure 127.0.0.1
+2021-01-01 11:31:01,224 INFO o.a.j.e.DistributedRunner: Stopping remote engines
+2021-01-01 11:31:01,224 INFO o.a.j.e.DistributedRunner: Remote engines have been stopped
+2021-01-01 11:31:01,225 ERROR o.a.j.JMeter: Error in NonGUIDriver
+java.lang.RuntimeException: Following remote engines could not be configured:[127.0.0.1]
+	at org.apache.jmeter.engine.DistributedRunner.init(DistributedRunner.java:112) ~[ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.JMeter.runNonGui(JMeter.java:1093) [ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.JMeter.startNonGui(JMeter.java:994) [ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.JMeter.start(JMeter.java:566) [ApacheJMeter_core.jar:5.3]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.apache.jmeter.NewDriver.main(NewDriver.java:252) [ApacheJMeter.jar:5.3]
+2021-01-01 11:31:01,225 ERROR o.a.j.JMeter: An error occurred: 
+org.apache.jmeter.report.config.ConfigurationException: Error in NonGUIDriver Following remote engines could not be configured:[127.0.0.1]
+	at org.apache.jmeter.JMeter.runNonGui(JMeter.java:1104) ~[ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.JMeter.startNonGui(JMeter.java:994) ~[ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.JMeter.start(JMeter.java:566) [ApacheJMeter_core.jar:5.3]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.apache.jmeter.NewDriver.main(NewDriver.java:252) [ApacheJMeter.jar:5.3]
+Caused by: java.lang.RuntimeException: Following remote engines could not be configured:[127.0.0.1]
+	at org.apache.jmeter.engine.DistributedRunner.init(DistributedRunner.java:112) ~[ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.JMeter.runNonGui(JMeter.java:1093) ~[ApacheJMeter_core.jar:5.3]
+	... 7 more
